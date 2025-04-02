@@ -2,19 +2,19 @@
 
 static inline u32 ROL32(u32 v, u8 n) {
   u32 result;
-  __asm__ volatile("rolw\t%0,%1,%2" : "=r"(result) : "r"(v), "r"(n));
+  __asm__("rolw\t%0,%1,%2" : "=r"(result) : "r"(v), "r"(n));
   return result;
 }
 
 static inline u32 ROR32(u32 v, u8 n) {
   u32 result;
-  __asm__ volatile("rorw\t%0,%1,%2" : "=r"(result) : "r"(v), "r"(n));
+  __asm__("rorw\t%0,%1,%2" : "=r"(result) : "r"(v), "r"(n));
   return result;
 }
 
 static inline u32 RORC32(u32 v, const u8 n) {
   u32 result;
-  __asm__ volatile("roriw\t%0,%1,%2" : "=r"(result) : "r"(v), "I"(n));
+  __asm__("roriw\t%0,%1,%2" : "=r"(result) : "r"(v), "I"(n));
   return result;
 }
 
