@@ -15,9 +15,9 @@ Core-0 instrCnt = 362792, cycleCnt = 142008, IPC = 2.554729
 
 ## 3. `-mcpu=xiangshan-nanhu -mtune=xiangshan-nanhu`
 
-Commit: 
+Commit: `c4eeaeb27eb19dd1fdce5e7eb8e0321b82f1ae63`
 
 ```plain-text
 Core 0: HIT GOOD TRAP at pc = 0x80010002
-Core-0 instrCnt = 278996, cycleCnt = 126141, IPC = 2.211779
+Core-0 instrCnt = 309079, cycleCnt = 133256, IPC = 2.319438
 ```
