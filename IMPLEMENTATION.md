@@ -30,3 +30,12 @@ Commit: `40b1a1dc6fad8343e77011bab330c4fb2d936f1a`
 Core 0: HIT GOOD TRAP at pc = 0x80010002
 Core-0 instrCnt = 278996, cycleCnt = 126141, IPC = 2.211779
 ```
+
+## 5. Remove `volatile` constraints
+
+Commit: `40aeb9d23554f1851ebcef7bdf6d360565086c9e`
+
+```plain-text
+Core 0: HIT GOOD TRAP at pc = 0x80010002
+Core-0 instrCnt = 280024, cycleCnt = 117979, IPC = 2.373507
+```
