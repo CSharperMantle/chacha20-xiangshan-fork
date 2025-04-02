@@ -21,3 +21,12 @@ Commit: `c4eeaeb27eb19dd1fdce5e7eb8e0321b82f1ae63`
 Core 0: HIT GOOD TRAP at pc = 0x80010002
 Core-0 instrCnt = 309079, cycleCnt = 133256, IPC = 2.319438
 ```
+
+## 4. Automatic loop unroll via `#pragma`
+
+Commit: `40b1a1dc6fad8343e77011bab330c4fb2d936f1a`
+
+```plain-text
+Core 0: HIT GOOD TRAP at pc = 0x80010002
+Core-0 instrCnt = 278996, cycleCnt = 126141, IPC = 2.211779
+```
