@@ -40,7 +40,8 @@ void chacha20(chacha_buf *output, const u32 input[16]) {
     x[i] = input[i];
   }
 
-  for (int i = 20; i > 0; i -= 2) {
+#pragma GCC unroll 10
+  for (int i = 0; i < 10; i++) {
     QUARTERROUND(0, 4, 8, 12);
     QUARTERROUND(1, 5, 9, 13);
     QUARTERROUND(2, 6, 10, 14);
